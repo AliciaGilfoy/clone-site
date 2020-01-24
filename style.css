@@ -1,0 +1,29 @@
+/* *{
+  outline: 2px solid black;
+} */
+header{
+  display: block;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  background: url(https://picsum.photos/id/307/200/300);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.infocard{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.topsection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
